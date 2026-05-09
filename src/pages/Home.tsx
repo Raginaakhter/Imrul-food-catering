@@ -1,3 +1,4 @@
+import AboutSection from "@/components/Home/Hero/AboutSection";
 import Hero from "@/components/Home/Hero/Hero";
 import MerqueBrands from "@/components/Home/MerqueBrand/MarqueBrands";
 
@@ -6,6 +7,8 @@ const Home = () => {
     <div>
       <Hero />
       <MerqueBrands></MerqueBrands>
+      <AboutSection></AboutSection>
+      
     </div>
   );
 };
