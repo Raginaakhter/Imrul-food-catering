@@ -11,6 +11,8 @@ import AdminDashboardPage from "@/pages/Admin/AdminDashboardPage";
 import SettingsPage from "@/pages/Admin/SettingsPage";
 import ClientDashboardPage from "@/pages/Client/ClientDashboardPage";
 import ClientLayout from "@/Layout/ClientLayout";
+import VenuePages from "@/pages/Venues/VenuePages";
+// import VenuesSection from "@/components/Home/Venues/Venues";
 
 const routes = createBrowserRouter([
   {
@@ -30,6 +32,10 @@ const routes = createBrowserRouter([
       {
         path: "/signup",
         element: <Signup />,
+      },
+       {
+        path: "/venues",
+        element: <VenuePages/>,
       },
     ],
   },
