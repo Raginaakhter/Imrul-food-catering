@@ -158,7 +158,8 @@ const STYLES = `
   .btn-outline:hover { color:white; }
   .btn-outline span { position:relative; z-index:1; }
 `;
-
+import img from "@/assets/meat.png";
+import img1 from "@/assets/iftar.jpeg";
 /* ─── Intersection observer hook ─── */
 function useInView(threshold = 0.12) {
   const ref = useRef<HTMLDivElement>(null);
@@ -229,8 +230,8 @@ export default function AboutSection() {
   const d = (ms: number) => ({ animationDelay: `${ms}ms` });
 
   const images = [
-    { src: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=700&q=85", label: "Authentic Cuisine" },
-    { src: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&q=80", label: "Premium Quality" },
+    { src: img, label: "Authentic Cuisine" },
+    { src: img1, label: "Premium Quality" },
     { src: "https://images.unsplash.com/photo-1574484284002-952d92456975?w=600&q=80", label: "Fresh Daily" },
   ];
 
