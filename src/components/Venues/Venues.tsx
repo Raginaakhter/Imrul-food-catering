@@ -65,7 +65,7 @@ const cardVariants = {
   },
 };
 
-const VenuesSection: React.FC = () => {
+const Venues: React.FC = () => {
   return (
     <section className="py-20 bg-gray-50 px-6 overflow-hidden">
       <div className="max-w-7xl mx-auto">
@@ -153,4 +153,4 @@ const VenuesSection: React.FC = () => {
   );
 };
 
-export default VenuesSection;
+export default Venues;
