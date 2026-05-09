@@ -40,7 +40,7 @@ export default function Hero() {
   ];
 
   return (
-    <div className="relative min-h-screen w-full overflow-hidden mt-[70px]">
+    <div className="relative min-h-screen w-full overflow-hidden ">
       {/* Full-screen background image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
