@@ -2,17 +2,17 @@ import { FaInstagram } from "react-icons/fa6";
 import { FiLinkedin, FiTwitter } from "react-icons/fi";
 import { LuFacebook } from "react-icons/lu";
 export const jobSeekersLinks = [
-  { label: "Browse Jobs", to: "/jobs" },
-  { label: "Create Profile", to: "/signup" },
+  { label: "View Menu", to: "/jobs" },
+  { label: "Reserve Your Event", to: "/signup" },
   // { label: "Career Resources", to: "/resources" },
   // { label: "FAQs", to: "/faqs" },
-  { label: "Create CV", to: "/create-cv" },
+  { label: "Get a Quote", to: "/create-cv" },
 ];
 
 export const employersLinks = [
-  { label: "Post a Job", to: "/owner-dashboard/my-jobs/create" },
-  { label: "Find Workers", to: "/owner-dashboard/all-applicant" },
-  { label: "Pricing Plans", to: "/pricing" },
+  { label: "Wedding Catering", to: "/owner-dashboard/my-jobs/create" },
+  { label: "Birthday Party", to: "/owner-dashboard/all-applicant" },
+  { label: "Family Gathering", to: "/Family Gathering" },
   // { label: "Success Stories", to: "/success-stories" },
 ];
 

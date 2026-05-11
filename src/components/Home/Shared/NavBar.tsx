@@ -3,15 +3,15 @@ import { NavLink, Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { HiOutlineMenuAlt2 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
-import logo from "@/assets/icons/logo.svg";
-import { FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa6";
 
+import { FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa6";
+import logo from "@/assets/logo33.jpeg";
 const navLinks = [
   { label: "Home", path: "/" },
-  { label: "Jobs", path: "/jobs" },
-  { label: "Post Job", path: "/post-job" },
-  { label: "About", path: "/about" },
-  { label: "Contact", path: "/contact" },
+  { label: "Services", path: "/jobs" },
+  { label: "Our Food", path: "/post-job" },
+  { label: "Venues", path: "/venues" },
+  { label: "connect", path: "/contact" },
 ];
 
 const socialLinks = [
@@ -28,7 +28,8 @@ const NavBar: React.FC = () => {
       <div className="container mx-auto flex items-center justify-between py-4 px-6">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
-          <img src={logo} alt="Logo" className="h-10 w-auto" />
+       
+          <img src={logo} alt="Logo" className="h-30 w-auto" />
         </Link>
 
         {/* Desktop Nav Links */}
@@ -60,7 +61,7 @@ const NavBar: React.FC = () => {
           </Link>
           <Link to="/jobs">
             <Button className="px-6 py-2 bg-blue-600 text-white hover:bg-blue-700 cursor-pointer">
-              Find a job
+              Book Now
             </Button>
           </Link>
         </div>
