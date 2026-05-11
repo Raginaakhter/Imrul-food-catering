@@ -261,7 +261,7 @@
 //   );
 // }
 
-
+import image from "@/assets/meat.png"
 import { useState, useEffect, useRef } from "react";
 
 const cards = [
@@ -282,7 +282,7 @@ const cards = [
     description:
       "Our seasoned chefs and service professionals bring years of expertise to every event, crafting memorable dining experiences with passion.",
     image:
-      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
+      image,
     accent: "#60a5fa",
   },
   {
