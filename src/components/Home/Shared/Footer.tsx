@@ -71,7 +71,7 @@ const Footer = () => {
             viewport={{ once: true }}
           >
             <h4 className="mb-5 text-sm font-semibold uppercase tracking-wide text-gray-900">
-              Employers
+             Services
             </h4>
             <ul className="space-y-3 text-sm">
               {employersLinks.map((link, idx) => (
@@ -104,7 +104,7 @@ const Footer = () => {
                   href="mailto:support@farmconnect.com"
                   className="hover:text-blue-600 transition-colors"
                 >
-                  support@farmconnect.com
+                  exclusiveimrul@gmail.com
                 </a>
               </li>
 
@@ -114,13 +114,13 @@ const Footer = () => {
                   href="tel:1800FARMCONNECT"
                   className="hover:text-blue-600 transition-colors"
                 >
-                  1-800-FARM-CONNECT
+                 01714142424
                 </a>
               </li>
 
               <li className="flex items-center gap-3">
                 <MapPin size={16} className="text-blue-600" />
-                <span>123 Agriculture Way, USA</span>
+                <span>Mhakhali DOHS 335 no House, Dhaka, Bangladesh</span>
               </li>
             </ul>
           </motion.div>
