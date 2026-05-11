@@ -405,7 +405,7 @@ const SectionBlock = ({ space, index }: { space: Space; index: number }) => {
   );
 };
 
-const TerminusDesign = () => {
+const Venues = () => {
   return (
     <div className="bg-[#ffffff] font-serif text-[#000] overflow-x-hidden">
       {/* Page Header */}
@@ -429,4 +429,4 @@ const TerminusDesign = () => {
   );
 };
 
-export default TerminusDesign;
+export default Venues;
