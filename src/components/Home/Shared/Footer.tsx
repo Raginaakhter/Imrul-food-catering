@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 import { employersLinks, jobSeekersLinks, legalLinks } from "./footerLinks";
 
-import brandLogo from "@/assets/icons/logo.svg";
+import brandLogo from "@/assets/logo33.jpeg";
 import { MdOutlineEmail } from "react-icons/md";
 import { MapPin, Phone } from "lucide-react";
 
@@ -30,14 +30,14 @@ const Footer = () => {
               <img
                 src={brandLogo}
                 alt="FarmLink Logo"
-                className="w-10 h-10 rounded-xl shadow-sm"
+                className="w-20 h-20 rounded-xl shadow-sm"
               />
-              <h3 className="text-xl font-semibold text-gray-900">FarmLink</h3>
+              {/* <h3 className="text-xl font-semibold text-gray-900">FarmLink</h3> */}
             </div>
 
             <p className="text-sm leading-relaxed text-gray-500">
-              Connecting skilled agricultural workers with trusted farms across
-              the nation through a reliable and transparent platform.
+             Creating unforgettable events with delicious cuisine,
+              elegant presentation, and dependable catering services.
             </p>
           </motion.div>
 
@@ -48,7 +48,7 @@ const Footer = () => {
             viewport={{ once: true }}
           >
             <h4 className="mb-5 text-sm font-semibold uppercase tracking-wide text-gray-900">
-              Job Seekers
+            Book Now
             </h4>
             <ul className="space-y-3 text-sm">
               {jobSeekersLinks.map((link, idx) => (
@@ -133,7 +133,7 @@ const Footer = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <p>© 2025 FarmConnect. All rights reserved.</p>
+          <p>© 2026 imrulexclusivecatering. All rights reserved.</p>
 
           <div className="flex gap-5">
             {legalLinks.map((link, idx) => (

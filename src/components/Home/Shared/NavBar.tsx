@@ -5,7 +5,7 @@ import { HiOutlineMenuAlt2 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 
 import { FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa6";
-import logo from "@/assets/logo.jpg";
+import logo from "@/assets/logo33.jpeg";
 const navLinks = [
   { label: "Home", path: "/" },
   { label: "Services", path: "/jobs" },
